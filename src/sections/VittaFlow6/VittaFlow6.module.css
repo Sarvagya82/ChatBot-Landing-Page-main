@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.card {
+  padding: 2rem;
+  margin: 2rem;
+  background: linear-gradient(150deg, #151515 0%, #09090a 51.56%, #151515 100%);
+  border: 1px solid;
+  border-image: linear-gradient(
+    145deg,
+    #ffffff 30%,
+    #09090a 51.56%,
+    #ededed 100%
+  );
+  border-image-slice: 1;
+}
+
+.img {
+  margin-right: 1rem;
+}
+
+.specialText {
+  background-image: linear-gradient(90deg, #ffe000 0%, #7dff16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+
+.topPart {
+  display: flex;
+  justify-content: start;
+}
+
+.subText2 {
+  color: #DBDBDB;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}

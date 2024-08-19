@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: p;
+    align-items: center;
+}
+
+.buttonStyle {
+
+    background: linear-gradient(23deg, #090909 0%, #032E0C 75.68%, #090909 100%);
+    border: 2px solid;
+    border-image: linear-gradient(83deg, #01F3FD 0%, #FF6DC1 100%);
+    border-image-slice: 1;
+    color: #ffffff;
+    padding: 18px 55px;
+    white-space: nowrap;
+    margin: 0px 100px;
+    /* width: 20%; */
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.heading1 {
+    font-size: 48px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    line-height: 114%;
+    color: #fff;
+    margin: 24px 40px;
+    width: 60%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}

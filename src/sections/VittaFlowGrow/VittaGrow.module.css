@@ -1,0 +1,22 @@
+.main-container {
+}
+
+.specialText {
+  /* display: block; */
+  background-image: linear-gradient(90deg, #ffe000 0%, #7dff16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subHeading {
+  color: #cbcbcb;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    background: url("../../assets/Graph.svg");
+    background-repeat: no-repeat;
+    background-size : 38%;
+    background-position: 0% 110%;
+  }
+}

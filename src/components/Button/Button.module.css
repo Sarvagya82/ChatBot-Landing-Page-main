@@ -1,0 +1,7 @@
+.button {
+  background: linear-gradient(23deg, #090909 0%, #032e0c 75.68%, #090909 100%);
+  padding: 1rem 2rem;
+  border-image: linear-gradient(83deg, #01F3FD 0%, #FF6DC1 100%) 1;
+  border-width: 4px;
+  border-style: solid;
+}

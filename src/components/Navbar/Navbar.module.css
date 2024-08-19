@@ -1,0 +1,16 @@
+.navbar {
+  border-radius: 16px;
+  background: linear-gradient(
+    173deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(25px);
+}
+
+.menu-item {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.025rem;
+}

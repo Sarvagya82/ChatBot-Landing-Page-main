@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-lg {
+    @apply rounded-2xl backdrop-blur-xl;
+    background: linear-gradient(
+      173deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    );
+  }
+
+  .navbar-sm {
+    @apply rounded-2xl backdrop-blur-xl bg-none;
+  }
+
+  .bg-dark {
+    background: linear-gradient(
+      150deg,
+      #151515 0%,
+      #09090a 51.56%,
+      #151515 100%
+    );
+  }
+}
+
+body {
+  margin: 0px;
+  background-repeat: repeat;
+  background: url("./src/assets/Texture.png"),
+    linear-gradient(90deg, #090909 10%, #032e0c 75.68%, #090909 100%);
+  font-family: "Manrope", sans-serif;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: Manrope;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: -0.82px;
+}
+
+h2 {
+  font-family: Manrope;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.5rem;
+  letter-spacing: -0.82px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-family: Manrope;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: -0.82px;
+  }
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 150px;
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 100px;
+  border-bottom: 1px solid white;
+  padding: 60px 0px;
+}
+
+.project-name {
+  font-family: "Voyage", "sans-serif";
+  font-size: 160px;
+  font-weight: 100;
+  margin: 0px 0px;
+}
+
+.project-info-container {
+  width: 50%;
+  font-family: "Raleway", "sans-serif";
+}
+
+.featured-work-heading {
+  margin: 20px 50px;
+  padding-top: 100px;
+  border-bottom: 1px solid white;
+  font-family: "Raleway", "sans-serif";
+}
+
+.main-project-section {
+  background: #1e1e1e;
+  color: #efefed;
+}
+
+.span-role {
+  color: #ecb424;
+  font-size: 20px;
+}
+
+.seeWorkBtn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: #1e1e1e;
+  color: #efefed;
+  margin: 20px 0px;
+  font-family: "Raleway", "sans-serif";
+  font-size: 14px;
+}

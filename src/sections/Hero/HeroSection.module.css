@@ -1,0 +1,33 @@
+.hero-container {
+  position: relative;
+}
+
+.hero-container::before {
+  content: "";
+  background-image: url("../../assets/Grid-Solid.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.hero-sub-heading {
+  color: #cbcbcb;
+}
+
+.focused-text {
+  background-image: linear-gradient(-200deg, #ffe630 5%, #7dff16 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .hero-container::before {
+    opacity: 0.15;
+  }
+}

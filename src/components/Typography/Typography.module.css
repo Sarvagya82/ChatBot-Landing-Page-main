@@ -1,0 +1,35 @@
+.subText,
+.subHeading,
+.tinyText,
+.captionText {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.subText {
+  font-weight: 400;
+}
+
+.subHeading {
+  font-weight: 300;
+}
+
+.captionText {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.captionText2 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.tinyText {
+  font-size: 14px;
+  font-weight: 400;
+}

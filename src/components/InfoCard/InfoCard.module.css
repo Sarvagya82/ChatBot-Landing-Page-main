@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.card {
+    padding: 2rem;
+    background: linear-gradient(150deg, #151515 0%, #09090A 51.56%, #151515 100%);
+    border: 1px solid;
+    border-image: linear-gradient(145deg, #FFFFFF 30%, #09090A 51.56%, #ededed 100%);
+    border-image-slice: 1;
+}
+
+.specialText {
+    background-image: linear-gradient(90deg, #FFE000 0%, #7DFF16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subText1 {
+    font-family: 'Inter', sans-serif;
+    color: #C6C6C6;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+.topPart {
+    display: flex;
+    justify-content: start;
+}
+
+
+.heading1 {
+    font-size: 82px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    line-height: 114%;
+    color: #fff;
+    margin: 24px 40px;
+    text-align: center;
+}
+
+.subText2 {
+    font-family: 'Inter', sans-serif;
+    color: #DDDDDD;
+    font-size: 16px;
+    margin: 40px 40px;
+    text-align: center;
+    /* max-width: 60%; */
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.grow-card {
+  background: linear-gradient(150deg, #151515 0%, #09090a 51.56%, #151515 100%);
+  padding: 30px;
+  border-image: linear-gradient(83deg, #ffe000 0%, #7dff16 100%) 1;
+  border-width: 4px 0 0 0;
+}
+
+.grow-card:nth-child(2n) {
+  border-image: linear-gradient(83deg, #ff83b7 0%, #ff83b7 100%) 1;
+}
+
+.card-icon {
+  background: #15151d;
+  width: fit-content;
+}
